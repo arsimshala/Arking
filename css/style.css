@@ -218,7 +218,7 @@ nav a {
 }
 nav .logo img
 {
-width: 12% !important;
+width: 10% !important;
 }
 
 .navbar-default{
@@ -296,7 +296,7 @@ a.navbar-brand {
 }
 
 .activate-menu {
-  background-image: linear-gradient(-140deg, #FE0B0B 15%, #1826A5 70%) !important;
+  background-image: linear-gradient(-140deg, #1826A5 15%, #1826A5 70%) !important;
   -webkit-box-shadow: -3px 13px 24px -1px rgba(0,0,0,0.3);
   box-shadow: -3px 13px 24px -1px rgba(0,0,0,0.3);
 }
@@ -430,7 +430,7 @@ nav:before {
 #showcase {
   height: 98vh;
   background-image: linear-gradient(to right bottom,
-  rgba(24, 38, 165, 0.5), rgba(254, 11, 11, 0.5)), url(../img/p1.jpg) !important;
+  rgba(0, 0, 0, 0.5), rgba(0, 0,0, 0.5)), url(../img/p1.jpg) !important;
   background-size: cover;
   background-position: center;
   margin-top: 5.6ems;
