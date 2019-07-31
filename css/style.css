@@ -366,6 +366,14 @@ nav:before {
   }
 
  }
+ .language
+ {
+  margin: 10% !important;
+  padding: 7% !important;
+  vertical-align: text-bottom !important;
+  text-decoration: none !important;
+  border: 2px solid white !important;
+ }
 
 /* ----------------------------------------------------------------
      [ End Navbar ]
