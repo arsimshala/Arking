@@ -187,9 +187,16 @@ body {
     height: .7rem;
     background-color: #0078ff;
   }
+  /*-------------------------CARDS-------------------------*/
+ 
+  
+ 
+  
+   /*------------------- END------CARDS-------------------------*/
   /*--------------------------------------------------*/
 .what_we_area {
   background:rgb(128, 10, 10) !important;
+  background-origin: outset white 3px ;
 }
 .what_we_area .tittle h2:after {
   background: #fff;
@@ -248,66 +255,131 @@ body {
 .what_we_area .construction_iner .construction:hover i, .what_we_area .construction_iner .construction:focus i {
   font-size: 35px;
 }
-/**Work start**/
-.work-box {
-  margin-bottom: 3rem;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  background-color: #fff;
-}
 
-.work-box:hover img {
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3);
-}
+/* Start Portfolio Area css
+============================================================================================ */
+.portfolio_area {
+  padding-bottom: 120px; }
+  @media (max-width: 991px) {
+    .portfolio_area {
+      padding-bottom: 50px; } }
+  .portfolio_area .filters ul {
+    padding-left: 0;
+    margin-bottom: 50px; }
+    @media (max-width: 991px) {
+      .portfolio_area .filters ul {
+        margin-bottom: 20px; } }
+    .portfolio_area .filters ul li {
+      display: inline-block;
+      margin-right: 50px;
+      font-size: 14px;
+      font-weight: 500;
+      text-transform: uppercase;
+      color: #222222;
+      cursor: pointer;
+      -webkit-transition: all 0.4s ease 0s;
+      -moz-transition: all 0.4s ease 0s;
+      -o-transition: all 0.4s ease 0s;
+      transition: all 0.4s ease 0s; }
+      .portfolio_area .filters ul li:hover, .portfolio_area .filters ul li.active {
+        color: #854fee; }
+      @media (max-width: 767px) {
+        .portfolio_area .filters ul li {
+          margin-right: 20px; } }
 
-.work-img {
-  display: block;
-  overflow: hidden;
-}
+.portfolio_box {
+  margin-bottom: 80px; }
+  @media (max-width: 767px) {
+    .portfolio_box {
+      margin-bottom: 35px; } }
+  .portfolio_box .short_info {
+    margin-top: 30px; }
+    @media (max-width: 767px) {
+      .portfolio_box .short_info {
+        margin-top: 20px; } }
+    .portfolio_box .short_info h4 {
+      text-transform: uppercase;
+      font-size: 20px;
+      margin-bottom: 0px; }
+      .portfolio_box .short_info h4 a {
+        color: #000000; }
 
-.work-img img {
-  transition: all 1s;
-}
+.single_portfolio {
+  position: relative; }
+  .single_portfolio .overlay {
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s; }
+  .single_portfolio .icon {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.4s ease 0s;
+    -moz-transition: all 0.4s ease 0s;
+    -o-transition: all 0.4s ease 0s;
+    transition: all 0.4s ease 0s; }
+    .single_portfolio .icon span {
+      font-size: 100px;
+      display: inline-block;
+      -webkit-transform: rotate(135deg);
+      -moz-transform: rotate(135deg);
+      -ms-transform: rotate(135deg);
+      -o-transform: rotate(135deg);
+      transform: rotate(135deg);
+      color: #ffffff;
+      cursor: pointer; }
+  .single_portfolio:hover .overlay {
+    background: rgba(77, 87, 222, 0.5); }
+  .single_portfolio:hover .icon {
+    opacity: 1;
+    visibility: visible;
+    top: 50%;
+    left: 50%; }
 
-.work-content {
-  padding: 2rem 3% 1rem 4%;
-}
+.portfolio_details_inner .row {
+  margin-bottom: 65px; }
+  @media (max-width: 480px) {
+    .portfolio_details_inner .row {
+      margin-bottom: 30px; } }
+.portfolio_details_inner p {
+  margin-bottom: 30px;
+  font-size: 14px; }
+  .portfolio_details_inner p:last-child {
+    margin-bottom: 0px; }
+.portfolio_details_inner .portfolio_right_text {
+  margin-top: 50px; }
+  .portfolio_details_inner .portfolio_right_text h4 {
+    font-size: 20px;
+    margin-bottom: 18px; }
+  .portfolio_details_inner .portfolio_right_text p {
+    margin-bottom: 25px;
+    font-size: 14px; }
+  .portfolio_details_inner .portfolio_right_text .list li {
+    margin-bottom: 7px;
+    font-weight: normal;
+    font-size: 14px; }
+    .portfolio_details_inner .portfolio_right_text .list li span {
+      font-family: "Rubik", sans-serif;
+      color: #000000;
+      font-size: 16px;
+      font-weight: 500;
+      width: 97px;
+      display: inline-block; }
+    .portfolio_details_inner .portfolio_right_text .list li:last-child {
+      margin-bottom: 0px; }
+    .portfolio_details_inner .portfolio_right_text .list li i {
+      color: #f1cd09; }
 
-.work-content .w-more {
-  color: #4e4e4e;
-  font-size: .8rem;
-}
-
-.work-content .w-more .w-ctegory {
-  color:rgb(128, 10, 10) !important;
-}
-
-.work-content .w-like {
-  font-size: 2.5rem;
-  color:rgb(128, 10, 10) !important;
-  float: right;
-}
-
-.work-content .w-like a {
-  color: rgb(128, 10, 10) !important;
-}
-
-.work-content .w-like .num-like {
-  font-size: .7rem;
-}
-
-.w-title {
-  font-size: 1.2rem;
-}
-.thumbnail img
-{
-  width: 100% !important;
-  margin:3% !important;
-  padding:3% !important;
-}
-
-/**Work ends***/
+/* End Portfolio Area css
+============================================================================================ */
 
   @keyframes slide {
     0% {
