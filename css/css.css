@@ -428,3 +428,10 @@ body {
     }
     
   }
+   @media screen and (max-width: 768px) {
+    .cards{
+      display: flex;
+      flex-direction: column;
+    }
+    
+  }
