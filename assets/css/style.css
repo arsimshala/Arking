@@ -529,7 +529,7 @@ div#preloader {
 .nivo-caption::after {
   background: #444 none repeat scroll 0 0;
   content: "";
-  height: ;
+
   left: 0;
   opacity: 0.5;
   position: absolute;
