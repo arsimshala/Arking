@@ -132,11 +132,7 @@ body {
   }
 }
 
-.back-to-top:focus {
-  background: #36099;
-  color: #fff;
-  outline: none;
-}
+
 
 .back-to-top:hover {
   background: #360099;
@@ -624,10 +620,7 @@ div#preloader {
 .nivo-controlNav a:hover, .nivo-controlNav a.active {
   background: #fff none repeat scroll 0 0;
   border-color: rgb(128, 10, 10);
-  -moz-transform: rotate(180deg);
-  -webkit-transform: rotate(180deg);
-  -o-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
+  
 }
 
 /* Normal desktop :992px. */
@@ -2170,7 +2163,7 @@ preview-2
 
 .sharing-icon {
   display: inline-block;
-  float: right;
+  
   padding: 13px 10px;
 }
 
@@ -2245,7 +2238,7 @@ preview-2
 
 .author-avatar {
   display: inline-block;
-  float: left;
+
   width: 10%;
 }
 
