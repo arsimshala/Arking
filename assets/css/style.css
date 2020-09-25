@@ -2036,14 +2036,14 @@ preview-2
 
 .post-img {
   display: inline-block;
-  float: left;
+
   padding: 0 5px;
   width: 35%;
 }
 
 .pst-content {
   display: inline-block;
-  float: left;
+  
   width: 65%;
 }
 
