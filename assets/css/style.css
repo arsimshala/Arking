@@ -418,7 +418,7 @@ div#preloader {
 }
 
 .mobile-nav-toggle i {
-  color: #fff;
+  color:rgb(128, 10, 10);;
 }
 
 .mobile-nav {
@@ -1700,7 +1700,7 @@ preview-2
 
 .contact .info i {
   font-size: 20px;
-  color:   rgb(128, 10, 10)
+  color:   rgb(128, 10, 10);
   float: left;
   width: 44px;
   height: 44px;
